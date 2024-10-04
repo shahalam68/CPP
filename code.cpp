@@ -1,10 +1,16 @@
 #include <iostream>
-#include <iomanip>
 using namespace std;
 int main(){
-    int side ;
-    cout<< "enter side of a square :";
-    cin>> side ;
-    cout<< "area of square is:"<< side * side;
+   float eng;
+   float sci;
+   float math;
+   cout<<"input eng marks:";
+   cin>>eng;
+   cout<< "input sci marks:";
+   cin>>sci;
+   cout<< "input math marks: ";
+   cin>>math;
+   float avg = (eng + sci + math)/ 3;
+   cout<<" your avarag marks is:" <<avg<<endl;
     return 0; 
 } 
